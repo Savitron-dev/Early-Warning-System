@@ -97,43 +97,20 @@ The circuit schematic is located at `schematics/Controlled_Traffic_System_Wired.
    * **ISO/SAE 21434:** Cybersecurity alignment for connected vehicle telemetry.
    * **UN Regulation No. 10:** Electromagnetic Compatibility (EMC) compliance for vehicle accessories.
 
-## 📂 Repository Structure
-
-```
-.
-├── CAD/
-│   ├── Enclosure_Main_Body.stl       # 3D printable main housing body
-│   ├── Enclosure_Lid.stl             # Top lid with camera mount bracket
-│   ├── Internal_Mounting_Deck.stl    # Component deck for standoff alignment
-│   ├── Controlled_Traffic_System.f3z # Autodesk Fusion 360 Archive (Fusion 360 only)
-│   └── Controlled_Traffic_System.step# Standard for Exchange of Product Data (Universal CAD)
-├── schematics/
-│   ├── Controlled_Traffic_System_Wired.kicad_sch # KiCad Schematic File
-│   └── KiCad_BOM.csv                            # Exported electronic component list
-├── firmware/
-│   └── src/
-│       └── esp32_main.cpp            # Embedded firmware for CAN acquisition & alerts
-├── docs/
-│   ├── Assembly_Diagram.png          # Exploded view diagram
-│   └── Block_Diagram.png             # Hardware system connection architecture
-├── LICENSE                           # MIT License
-└── README.md                         # Project Documentation
-```
-
 ## 💻 How to Open & Render Project Files
 
 ### 1. Opening `.f3z` CAD Files (Autodesk Fusion 360)
 * `.f3z` is an archived Fusion 360 assembly.
-* **To open:** Launch **Autodesk Fusion 360** $\rightarrow$ **File** $\rightarrow$ **Open...** $\rightarrow$ **Open from my computer** and select `CAD/Controlled_Traffic_System.f3z`.
+* **To open:** Launch **Autodesk Fusion 360** $\rightarrow$ **File** $\rightarrow$ **Open...** $\rightarrow$ **Open from my computer** and select `Controlled Traffic System - Vehicle Unit.f3z`.
 
 ### 2. Opening `.step` CAD Files (Universal 3D CAD)
 * `.step` (ISO 10303) allows seamless import across any engineering software.
-* **To open:** Import `CAD/Controlled_Traffic_System.step` into **SolidWorks**, **FreeCAD**, **Onshape**, **Autodesk Inventor**, or **Rhino**.
+* **To open:** Import `Controlled Traffic System - Vehicle Unit.step` into **SolidWorks**, **FreeCAD**, **Onshape**, **Autodesk Inventor**, or **Rhino**.
 * **3D Printing Recommendation:** Print enclosure using **PETG** or **ABS** for UV resistance and heat tolerance inside the vehicle dashboard.
 
 ### 3. Opening `.kicad_sch` Files (KiCad EDA)
 * `.kicad_sch` contains the hardware schematics and module pinouts.
-* **To open:** Download and install [KiCad EDA](https://www.kicad.org/), open **KiCad**, click **Open Schematic**, and browse to `schematics/Controlled_Traffic_System_Wired.kicad_sch`.
+* **To open:** Download and install [KiCad EDA](https://www.kicad.org/), open **KiCad**, click **Open Schematic**, and browse to `Controlled_Traffic_System_Wired.kicad_sch`.
 
 ## 👥 Development Team & Acknowledgments
 
