@@ -1,8 +1,6 @@
 # AI-Powered Early Warning System — In-Vehicle Unit (CAD & Mechanical Enclosure)
 
 > **Repository:** [`Savitron-dev/Early-Warning-System`](https://github.com/Savitron-dev/Early-Warning-System)
->
-> **Initiative:** Maker Bhavan Foundation — Vishwakarma Awards 2026–27 (IIT Hyderabad)
 
 ## 📌 Executive Summary
 
